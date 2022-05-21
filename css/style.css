@@ -1,0 +1,73 @@
+:root{
+   --silver:#DFDFDE;
+   --light-silver:#F7F5F2;
+   --grey-silver:#8D8DAA;
+   --pink: rgb(245, 109, 145);
+   --montserrat:'Montserrat', sans-serif;
+}
+
+body{
+   background-color:var(--light-silver);
+}
+
+section{
+   width:80%;
+   background-color: pink;
+   margin: 0 auto;
+   margin-bottom:30px;
+}
+
+.header nav{
+   background:var(--grey-silver);
+   width:80%;
+   height:55px;
+   margin:0 auto;
+   margin-top:30px;
+}
+
+nav{
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content:end;
+   flex-direction: row;
+   align-content: space-between;
+}
+
+nav li{
+   display:inline;
+   margin: 0 15px 0 15px;
+
+   
+}
+
+nav li a{
+   text-decoration: none;
+   font-family: var(--montserrat);
+   color:var(--light-silver);
+   font-size:25px
+}
+
+.banner{
+   margin:2% 10% 2% 10%;
+   height:350px;
+   width: 80%;
+}
+
+.titulo-principal{
+   text-align: center;
+   padding: 20px;
+   font-size: 2.5em;
+}
+
+p{
+   text-align: center;
+   font-size: 1.5em;
+}
+
+.titulo_produtos{
+   text-align: center;
+   padding: 20px;
+   font-size: 2em;
+}
+
