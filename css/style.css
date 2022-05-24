@@ -8,6 +8,7 @@
 
 body{
    background-color:var(--light-silver);
+   box-sizing: border-box;
 }
 
 section{
@@ -36,8 +37,6 @@ nav{
 nav li{
    display:inline;
    margin: 0 15px 0 15px;
-
-   
 }
 
 nav li a{
@@ -61,8 +60,6 @@ nav li a{
    text-transform: uppercase;
    color:var(--grey-silver);
    font-weight: bold;
-
-
 }
 
 p{
@@ -89,12 +86,27 @@ p{
    font-size: 1.5em;
    margin: 5px;
 }
- 
+
 .produtos li{
    width: 25%;
    margin: 0 auto;
 }
-.produtos  li img{
-  width: 100%;
-  height:350px;
+.produtos-img{
+   width: 100%;
 }
+
+.btn{
+   padding:2px;
+   height:10px;
+}
+.btn button {
+   width: 90%;
+   background-color:var(--grey-silver)
+}
+
+.btn-whats .img{
+   width: 40px;
+   justify-content:space-content;
+   
+}
+
