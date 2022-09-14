@@ -126,11 +126,15 @@ p{
 /*******/
 .produtos-img{
    display:flex;
+   background-color: #8D8DAA;
 }
 
 .foto-produto {
-   width: 20%;
-   height: 30%;
+   max-width: 20%;
+   height: 20%;
+   border-radius: 50%;
+   border: 5px solid var(--light-silver);
+   
 }
 /********/
 
