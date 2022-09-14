@@ -9,6 +9,7 @@
 body{
    background-color:var(--light-silver);
    box-sizing: border-box;
+   
 }
 
 section{
@@ -64,10 +65,10 @@ nav li a{
 
 p{
    text-align: center;
-   font-size: 1.5em;
+   font-size: 1.2em;
 }
 
-.titulo_produtos, a{
+.titulo_produtos, h4,h3, h5,h6{
    text-align: center;
    padding: 20px;
    font-size: 1.5em;
@@ -110,3 +111,20 @@ p{
    
 }
 
+/********/
+
+.contato{
+   display:flex;
+   margin-bottom:1rem;
+}
+
+.endereco{
+   text-align:center;
+   width: 60%;
+   line-height:1.5;
+}
+
+a {
+   text-decoration: none;
+   color:#000000;
+}
